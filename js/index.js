@@ -39,8 +39,12 @@
 /////////////////
 
 ///ERRORHANDLING///
+function hello(){
+    
+}
+
 try{
-    let y = 5/0;
+    hello();
 }catch(e){
     console.log("Dividing by 0 is undefined/")
 }finally{
